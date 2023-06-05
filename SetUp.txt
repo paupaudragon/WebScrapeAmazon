@@ -1,0 +1,26 @@
+https://thepythonscrapyplaybook.com/freecodecamp-beginner-course/freecodecamp-scrapy-beginners-course-part-2-scrapy-environment/
+
+1. python --version
+2. pip --version
+3. py -m ensurepip --upgrade
+4. pip install virtualenv
+5. Create a folder as workspace and enter the folder
+6. virtualenv venv
+7. venv\Scripts\activate // anythig we install after this point, will be in the workspace folder
+8. pip install scrapy
+
+Create a project
+1. scrapy startproject amazonProductScraper
+2. go to ./sipders
+3. scrapy genspider amazonSpider amazon.com 
+4. pip install ipython // a shell easy to read
+5. Add "shell = ipython" in scrapy.config
+6. run scrapy shell
+7. fetch('https://www.amazon.com/') wont work
+
+Create poxy
+1. Get API key from ScrapeOPs.io 
+2. pip install scrapeops-scrapy-proxy-sdk
+3. Goto settings: Add:
+    SCRAPEOPS_API_KEY='KEY'
+    SCRAPEOPS_PROXY_ENABLED = True
