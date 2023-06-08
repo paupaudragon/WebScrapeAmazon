@@ -936,3 +936,9 @@ venv/lib/python3.10/site-packages/setuptools/command/install_egg_info.py
 venv/lib/python3.10/site-packages/setuptools/command/install_lib.py
 venv/lib/python3.10/site-packages/setuptools/command/install_scripts.py
 venv/lib/python3.10/site-packages/setuptools/command/install.py
+amazonSearch/amazonSearch/__pycache__/__init__.cpython-310.pyc
+amazonSearch/amazonSearch/__pycache__/settings.cpython-310.pyc
+amazonSearch/amazonSearch/spiders/__pycache__/__init__.cpython-310.pyc
+amazonSearch/amazonSearch/spiders/__pycache__/searchproductspider.cpython-310.pyc
+amazonSearch/data/searchproductspider_2023-06-08T16-42-07.csv
+amazonSearch/data/searchproductspider_2023-06-08T16-51-37.csv
