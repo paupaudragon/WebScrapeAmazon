@@ -24,3 +24,16 @@ Create poxy
 3. Goto settings: Add:
     SCRAPEOPS_API_KEY='KEY'
     SCRAPEOPS_PROXY_ENABLED = True
+
+Notes for laptop: 
+** Python is installed under ubuntu
+** Python environment folder: WebScraperAmazon folder
+** Scrapy is installed under Python environment folder
+
+** ubuntu => cd /mnt/c/Users/owner/git/WebScrapeAmazon => $ source venv/bin/activate
+
+** go to the project folder
+** run scrapy crawl
+
+To save data to a file
+** run scrapy crawl searchproductspider -O result.json
