@@ -30,10 +30,17 @@ Notes for laptop:
 ** Python environment folder: WebScraperAmazon folder
 ** Scrapy is installed under Python environment folder
 
-** ubuntu => cd /mnt/c/Users/owner/git/WebScrapeAmazon => $ source venv/bin/activate
+** ubuntu => cd /mnt/c/Users/owner/git/WebScrapeAmazon => $ source venv/bin/activate OR source ./venv/bin/activate
 
 ** go to the project folder
 ** run scrapy crawl
 
 To save data to a file
 ** run scrapy crawl searchproductspider -O result.json
+
+Connect to database 
+** in venv: mysql --version
+** sudo mysql -u root ##no password needed, but if needed: ztt520GFX
+
+Install python - mysql connector
+** (venv) tzhou04@DESKTOP-281M5EK:/mnt/c/Users/owner/git/WebScrapeAmazon/amazonSearch$ python -m pip install mysql-connector-python
